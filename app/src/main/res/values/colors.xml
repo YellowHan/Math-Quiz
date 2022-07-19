@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#001AFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    // 사칙연산 버튼 색상
+    <color name="pastel_blue">#A2D6FF</color>
+
+    // 테두리 색상
+    <color name="gray">#787878</color>
+
+    <color name="blue">#0277BD</color>
+    <color name="blue2">#085cff</color>
+
+    // 전체 배경 색상
+    <color name="bg_blue">#C4E5FF</color>
+
+    <color name="green">#00A109</color>
+    <color name="red">#C80000</color>
+
+
+
+</resources>

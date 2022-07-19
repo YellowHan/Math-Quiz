@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_blue"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/resultCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/total_info"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rightCountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/right_count"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/wrongCountName"
+        app:layout_constraintStart_toStartOf="@+id/resultCount"
+        app:layout_constraintTop_toBottomOf="@+id/resultCount" />
+
+    <TextView
+        android:id="@+id/rightCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/rightCountName"
+        app:layout_constraintStart_toEndOf="@+id/rightCountName" />
+
+
+    <TextView
+        android:id="@+id/wrongCountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrong_count"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/replay"
+        app:layout_constraintStart_toStartOf="@+id/resultCount"
+        app:layout_constraintTop_toBottomOf="@+id/rightCountName" />
+
+    <Button
+        android:id="@+id/btn_next_page"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/right"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wrongCount"
+        app:layout_constraintStart_toEndOf="@+id/wrongCount"
+        app:layout_constraintTop_toTopOf="@+id/wrongCount" />
+
+
+    <TextView
+        android:id="@+id/wrongCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/wrongCountName"
+        app:layout_constraintStart_toEndOf="@+id/wrongCountName" />
+
+
+    <Button
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/replay"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:background="@drawable/button_round"
+        app:layout_constraintBottom_toTopOf="@id/redo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wrongCountName" />
+
+    <Button
+        android:id="@+id/redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_main"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:background="@drawable/button_round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/replay" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
