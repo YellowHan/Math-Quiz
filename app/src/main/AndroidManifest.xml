@@ -14,11 +14,6 @@
         android:theme="@style/Theme.MathQuiz"
         tools:targetApi="31">
 
-    <meta-data
-        android:name="com.google.android.gms.ads.APPLICATION_ID"
-        android:value="ca-app-pub-7122564754479309~5013301064"
-        />
-
     <activity
         android:name="com.yellowh.mathquiz.SplashActivity"
         android:exported="true"

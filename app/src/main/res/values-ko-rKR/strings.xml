@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">손으로 쓰는 수학</string>
+    <string name="plus">+</string>
+    <string name="minus">−</string>
+    <string name="multiply">×</string>
+    <string name="division">÷</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="level4">Level 4</string>
+    <string name="right_count">맞춘 횟수 :</string>
+    <string name="wrong_count">틀린 횟수 :</string>
+    <string name="answer_check">정답확인</string>
+    <string name="rewrite">다시쓰기</string>
+    <string name="replay">다시하기</string>
+    <string name="back_main">메인으로</string>
+    <string name="wrong_list">오답 리스트</string>
+    <string name="right_answer">정답</string>
+    <string name="warning_msg">⚠ 오답 리스트는 별도 저장 되지 않습니다. ⚠</string>
+    <string name="user_input_number">입력한 답</string>
+    <string name="back_page">back_page</string>
+    <string name="hello_blank_fragment">blank fragment</string>
+    <string name="select_work">아래 연산 중 하나를 선택해주세요.</string>
+    <string name="select_level">Level을 선택해주세요.</string>
+    <string name="answer_info">정답 입력 방법 : 왼쪽부터 순서대로 적어주세요.</string>
+    <string name="erase_doodles">메모 삭제</string>
+    <string name="total_info">총 10문제 중</string>
+</resources>

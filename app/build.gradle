@@ -13,8 +13,8 @@ android {
         applicationId "com.yellowh.mathquiz"
         minSdk 26
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -53,11 +53,7 @@ dependencies {
     def lottie_version = "5.2.0"
     implementation "com.airbnb.android:lottie:${lottie_version}"
 
-    // 구글 모바일 광고
-    implementation "com.google.android.gms:play-services-ads:21.1.0"
-
-
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

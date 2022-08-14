@@ -7,7 +7,6 @@
     android:background="@color/bg_blue"
     tools:context=".ResultActivity">
 
-
     <TextView
         android:id="@+id/resultCount"
         android:layout_width="wrap_content"
@@ -41,6 +40,7 @@
         android:text="0"
         android:textColor="@color/black"
         android:textSize="30sp"
+        android:layout_marginStart="10dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/rightCountName"
         app:layout_constraintStart_toEndOf="@+id/rightCountName" />
 
@@ -53,7 +53,6 @@
         android:text="@string/wrong_count"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/rightCount"
         app:layout_constraintStart_toStartOf="@+id/rightCountName"
         app:layout_constraintTop_toBottomOf="@id/rightCountName" />
 
@@ -76,6 +75,7 @@
         android:text="0"
         android:textColor="@color/black"
         android:textSize="30sp"
+        android:layout_marginStart="10dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/wrongCountName"
         app:layout_constraintEnd_toStartOf="@+id/btn_next_page"
         app:layout_constraintStart_toEndOf="@+id/wrongCountName" />
